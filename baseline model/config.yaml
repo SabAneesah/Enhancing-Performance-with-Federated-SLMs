@@ -1,0 +1,6 @@
+model: "TinyLlama-1.1B"
+federated_rounds: 10
+local_epochs: 3
+learning_rate: 5e-5
+batch_size: 16
+aggregation_method: "FedAvg"
